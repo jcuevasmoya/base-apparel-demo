@@ -1,0 +1,107 @@
+
+body {
+    font-size: 16px;
+    margin-left: 4.375rem;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+}
+
+
+
+/* HELPER CLASS */
+
+.desaturateRed {
+    color: Red: hsl(0, 36%, 70%);    
+}
+
+.softRed {
+    color: hsl(0, 93%, 68%);
+}
+
+.neutral {
+    color: hsl(0, 6%, 24%);
+}
+
+.gradient{
+    background: linear-gradient(135deg, hsl(0, 0%, 100%),hsl(0, 100%, 98%));
+}
+
+.gradient2 {
+    background: linear-gradient( hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+.container {
+    display: flex;
+    flex-flow: row;
+}
+/*lOGO */
+.logo {
+    margin-top: 4.06rem;
+    margin-bottom: 4.5rem;
+}
+/* HEADER */
+.header {
+    font-family: 'Josefin Sans', san-serif;
+    font-weight: 600;
+    font-size: 5rem;
+    padding-right: 28.125rem;
+    text-transform: uppercase;
+}
+/* TEXT */
+
+.text {
+    flex-basis: 50%;
+    justify-content: space-between;
+}
+
+
+.para {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding-right: 26.562rem;
+    margin: 3.125rem 4.375rem 3.125rem 0;
+    width: 25rem;
+    line-height: 1.5;
+    
+}
+
+
+/* SUBMIT */
+
+.buttonSubmit {
+    position: relative;
+    margin-right: 34.375rem;
+}
+
+input {
+    width: 100%;
+    padding: 1.4rem;
+    border-radius: 70px;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+button {
+    position: absolute;
+    right: -3rem;
+    top: 0rem;
+    padding: 1.4rem;
+    border-radius: 70px;
+    width: 8rem;
+    border: none;
+    cursor: pointer;
+    
+}
+
+button:hover {
+
+}
+/* FOOTER */
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%); 
+}
